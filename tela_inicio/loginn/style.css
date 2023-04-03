@@ -1,5 +1,6 @@
 body{
-    background: #f1f1f1;
+    background:no-repeat center/cover url(assets/back.jpg);
+    height: calc(100vh - 100px);
     display: flex;
     align-items: center;
     height: 100vh;
@@ -10,7 +11,9 @@ body{
     width: 300px;
     margin: auto;
 }
-
+nav{
+    align-items: center;
+}
 input{
     width: 100%;
     border-radius: 8px;
@@ -28,4 +31,14 @@ li{
     width: 100%;
     padding: 8px 15px;
     margin: 8px 0;
+}
+button{
+    padding: 10px 15px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    background: #93BFCF;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
 }
